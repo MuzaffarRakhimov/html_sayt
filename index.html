@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do'stlik</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: #87CEEB; /* Osmon moviy */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            background-color: #4682B4; /* Kuchsizroq moviy */
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px auto;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+
+        #about {
+            background-color: #E6F7FF; /* Yengil moviy */
+        }
+
+        #services {
+            background-color: #DFF6DD; /* Pastel yashil */
+        }
+
+        #contact {
+            background-color: #FFF7E6; /* Iliq oq rang */
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #87CEEB;
+            color: white;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                line-height: 1.4;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            section {
+                padding: 15px;
+                margin: 10px;
+            }
+
+            header {
+                padding: 15px;
+            }
+
+            footer {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            nav a {
+                font-size: 0.9rem;
+            }
+
+            section h2 {
+                font-size: 1.2rem;
+            }
+
+            section p, section li {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Do'stlik</h1>
+        <p>Biz bilan birga quvnoq va qiziqarli hayot sari!</p>
+    </header>
+    
+    <nav>
+        <a href="#about">Biz haqimizda</a>
+        <a href="#services">Xizmatlar</a>
+        <a href="#contact">Aloqa</a>
+    </nav>
+
+    <section id="about">
+        <h2>Biz haqimizda</h2>
+        <p>Biz har doim o'zaro ishonch va hamkorlik asosida ishlashni qadrlaymiz. Bizning maqsadimiz - odamlarni birlashtirish va ularga yordam berish.</p>
+    </section>
+
+    <section id="services">
+        <h2>Xizmatlar</h2>
+        <ul>
+            <li>Do'stlikni mustahkamlashga yordam beruvchi tadbirlar.</li>
+            <li>O'zaro yordam va qo'llab-quvvatlash platformalari.</li>
+            <li>Qo'shimcha maslahat va treninglar.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Aloqa</h2>
+        <p>Biz bilan bog'lanish uchun quyidagi ma'lumotlardan foydalaning:</p>
+        <p>Email: info@dostlik.com</p>
+        <p>Telefon: +998 90 123 45 67</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Do'stlik. Barcha huquqlar himoyalangan.</p>
+    </footer>
+</body>
+</html>
